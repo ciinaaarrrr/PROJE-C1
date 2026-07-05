@@ -1,0 +1,92 @@
+.renk {
+  display: block;
+  max-width: 100%;
+  height: 120px;
+  border: 1px #000 solid;
+  margin: 5px;
+}
+
+.renk div {
+  width: 150px;
+  height: 30px;
+}
+
+.r1 {
+  background-color: #ffbfa3;
+}
+
+.r2 {
+  background-color: #ffdccf;
+}
+
+.r3 {
+  background-color: #fff8f3;
+}
+
+.r4 {
+  background-color: #ff8a65;
+}
+/* ------------------------ */
+.r1-1 {
+  background-color: #a8cfa8;
+}
+
+.r2-1 {
+  background-color: #dcefd8;
+}
+
+.r3-1 {
+  background-color: #fafcf8;
+}
+
+.r4-1 {
+  background-color: #6fa36f;
+}
+/* ------------------------ */
+.r1-2 {
+  background-color: #ffc98b;
+}
+
+.r2-2 {
+  background-color: #ffe7c7;
+}
+
+.r3-2 {
+  background-color: #fffdf8;
+}
+
+.r4-2 {
+  background-color: #f4a261;
+}
+/* ------------------------ */
+.r1-3 {
+  background-color: #f6a6a6;
+}
+
+.r2-3 {
+  background-color: #fcd9d9;
+}
+
+.r3-3 {
+  background-color: #fff7f7;
+}
+
+.r4-3 {
+  background-color: #e57373;
+}
+/* ------------------------ */
+.r1-4 {
+  background-color: #7fa8d8;
+}
+
+.r2-4 {
+  background-color: #d6e5f7;
+}
+
+.r3-4 {
+  background-color: #f7fafd;
+}
+
+.r4-4 {
+  background-color: #4a78b5;
+}
