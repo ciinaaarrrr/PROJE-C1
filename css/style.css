@@ -23,7 +23,8 @@
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  font-family: sans-serif;
+  font-weight: 800;
+  color: #575d37;
 }
 .container-navbar {
   display: flex;
@@ -36,12 +37,21 @@
 
 .lobi-logo {
   display: flex;
-  gap: 10px;
-  font-family: monospace;
+  font-family: "Playwrite NZ", cursive;
+  color: #575d37;
+  flex-direction: column;
+}
+.lobi-logo p {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+.lobi-logo h1 {
+  text-shadow: -2px 2px 2px #948787;
 }
 
 .number {
-  display: flex;
+  display: block;
   background-color: #efe1d6;
   width: 100px;
   height: 100px;
