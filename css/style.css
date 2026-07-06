@@ -51,10 +51,30 @@
 }
 
 .number {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #efe1d6;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 1px solid #b2a4a5;
 }
+
+.container-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+/*      svg         */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #575d37;
+}
+
+/*      svg         */
