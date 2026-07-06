@@ -8,6 +8,8 @@
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  background-image: url(/PROJE-C1/img/mobil-bg3.png);
+  background-size: cover;
 }
 
 .menu,
@@ -25,6 +27,8 @@
   justify-content: center;
   font-weight: 800;
   color: #575d37;
+  box-shadow: -1px 1px 1px #c2a4a4;
+  transition: 0.5s;
 }
 .container-navbar {
   display: flex;
@@ -33,8 +37,15 @@
   align-items: center;
   width: 100%;
   gap: 10px;
+  text-shadow: -1px 1px 1px #c2a4a4;
+  max-width: 368px;
 }
-
+.menu:hover,
+.container-main:hover,
+.navigation:hover,
+.number:hover {
+  opacity: 0.6;
+}
 .lobi-logo {
   display: flex;
   font-family: "Playwrite NZ", cursive;
@@ -48,6 +59,8 @@
 }
 .lobi-logo h1 {
   text-shadow: -2px 2px 2px #948787;
+  font-weight: 700;
+  text-align: center;
 }
 
 .number {
@@ -59,6 +72,7 @@
   height: 50px;
   border-radius: 50%;
   border: 1px solid #b2a4a5;
+  transition: 0.5s;
 }
 
 .container-social-media {
