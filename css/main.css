@@ -1,5 +1,8 @@
 body {
   background-color: #e3d1ba;
+  background-image: url(/PROJE-C1/img/main-bg4.png);
+  background-repeat: repeat;
+  background-size: cover;
 }
 .side-panel {
   position: fixed;
@@ -47,4 +50,33 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.side-panel-block {
+  display: block;
+  width: 100%;
+  height: 80px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.main-container h1 {
+  text-shadow: -2px 2px 2px #d5c9c9;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Playwrite NZ", cursive;
+  color: #575d37;
+  padding-bottom: 15px;
+}
+.main-container h2 {
+  text-shadow: -2px 2px 2px #948787;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Playwrite NZ", cursive;
 }
