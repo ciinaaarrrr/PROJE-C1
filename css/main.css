@@ -1,0 +1,50 @@
+body {
+  background-color: #e3d1ba;
+}
+.side-panel {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  background-color: #efe1d6;
+  box-shadow: 1px 1px 1px #a18d8d;
+  padding: 0 10px 0 10px;
+}
+
+.side-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.side-logo h3 {
+  text-shadow: -2px 2px 2px #948787;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Playwrite NZ", cursive;
+  color: #575d37;
+  font-size: 16px;
+}
+
+.side-logo p {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-family: "Playwrite NZ", cursive;
+  color: #575d37;
+  font-size: 12px;
+}
+
+.icon-menu {
+  width: 30px;
+  height: 30px;
+  fill: #575d37;
+}
+
+.side-svg-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

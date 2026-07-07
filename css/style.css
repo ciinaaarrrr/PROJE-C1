@@ -1,3 +1,6 @@
+body {
+  background-color: #e3d1ba;
+}
 .container-lobi {
   display: flex;
   background-color: #e3d1ba;
@@ -46,6 +49,7 @@
 .number:hover {
   opacity: 0.6;
 }
+
 .lobi-logo {
   display: flex;
   font-family: "Playwrite NZ", cursive;
