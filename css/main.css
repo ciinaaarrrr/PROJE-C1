@@ -68,15 +68,19 @@ body {
 
 .main-container h1 {
   text-shadow: -2px 2px 2px #d5c9c9;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   font-family: "Playwrite NZ", cursive;
   color: #575d37;
   padding-bottom: 15px;
+  background-color: #e4ceb775;
+  border-radius: 30px;
 }
 .main-container h2 {
   text-shadow: -2px 2px 2px #948787;
   font-weight: 700;
   text-align: center;
   font-family: "Playwrite NZ", cursive;
+  background-color: #e4ceb7e3;
+  border-radius: 30px;
 }
